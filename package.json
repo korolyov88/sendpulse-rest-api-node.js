@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/korolyov88/sendpulse-rest-api-node.js",
   "publishConfig": { 
-     "registry": "https://npm.pkg.github.com/"
-}
+    "registry": "https://npm.pkg.github.com/"  
+  }
 
 }
