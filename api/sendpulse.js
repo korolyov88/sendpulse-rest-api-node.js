@@ -588,7 +588,7 @@ function campaignStatByReferrals(callback, id) {
  * @param segmentId
  */
 function createCampaign(callback, senderName, senderEmail, subject, body, bookId, segmentId, name, attachments) {
-    if ((senderName === undefined) || (!senderName.length) || (senderEmail === undefined) || (!senderEmail.length) || (subject === undefined) || (!subject.length) || (body === undefined) || (!body.length) || (bookId === undefined) || (segmentId === undefined)) {
+    if ((senderName === undefined) || (!senderName.length) || (senderEmail === undefined) || (!senderEmail.length) || (subject === undefined) || (!subject.length) || (body === undefined) || (!body.length) || (bookId === undefined) {
         return callback(returnError('Not all data.'));
     }
     if (name === undefined) {
